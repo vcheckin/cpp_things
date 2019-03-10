@@ -1,5 +1,5 @@
 #pragma once
-
+/// Copyright (c) 2018 Vassily Checkin. See included license file.
 #include <type_traits>
 #include <memory>
 
