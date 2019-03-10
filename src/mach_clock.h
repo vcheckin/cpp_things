@@ -1,6 +1,9 @@
 #pragma once
+/// Copyright (c) 2018 Vassily Checkin. See included license file.
+#include <chrono>
+#include <mach/mach_time.h>
 
-/// std::chrono style clock that use mach_absolute_time ticks
+/// std::chrono style clock that uses mach_absolute_time ticks
 struct mach_absolute_time_clock
 {
     // std::chrono interface
